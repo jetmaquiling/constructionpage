@@ -7,6 +7,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Ernie Abella Website is in Development</title>
+        <meta property="og:image"              content='./ernieabella.png' />
       </Head>
       <video autoPlay muted loop  className={styles.video}>
         <source src="/video.mp4" type="video/mp4"/>
